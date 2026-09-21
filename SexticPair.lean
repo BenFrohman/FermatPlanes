@@ -1,17 +1,22 @@
 /-
 Copyright (c) 2026 Benjamin Stanley Frohman (@BenFrohman). Apache-2.0.
 Authors: Benjamin Stanley Frohman (@BenFrohman)
+
+Target: Fermat sextic host ∑ z_i^6 = 0 in ℝ^5.
+Univariate pair identity only. Not EXTRA_CLASS_SEXTIC.
+Not CycleSection on an unnamed fourfold.
+`HodgeConjecture.general_fourfold` stays a Prop.
 -/
 import Mathlib.Tactic.Ring
 
 /-!
-# Degree-6 pair identity
+# Degree-6 pair identity (Fermat host only)
 
     z^6 + w^6
       = (z - ζ w)(∑_{k=0}^5 ζ^k z^{5-k} w^k) + (1 + ζ^6) w^6
 
-When `ζ^6 = -1` the remainder vanishes. Membership, not Chow, not general `s`.
-Fermat sextic fourfold: six coordinates in `P^5`.
+Vanishes at `ζ^6 = -1`. Ideal membership on the Fermat sextic.
+Do not map this identity to a general splitting rule s(X, γ).
 -/
 
 namespace FermatPlanes
