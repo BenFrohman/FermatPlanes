@@ -21,3 +21,8 @@ The opposite linear form uses -ζ:
 
 Three pairs put F in I(Z₁) and I(Z₂). Lean: `FermatIdentities.lean`.
 Classes [Z_i] are Hodge because they are algebraic (easy arrow).
+
+## Scope sentence
+
+Noether–Lefschetz is recorded as very general *high-degree*, not as
+“a very general quartic.” Fermat is the special host where the planes exist.
