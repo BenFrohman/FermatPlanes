@@ -1,3 +1,4 @@
+<!-- Copyright (c) 2026 Benjamin Stanley Frohman. Licensed under Apache-2.0. -->
 # Why the MvPolynomial `concrete_s` paste is not a CycleSection
 
 Author: Benjamin Stanley Frohman (@BenFrohman).

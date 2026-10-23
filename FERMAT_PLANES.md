@@ -1,3 +1,4 @@
+<!-- Copyright (c) 2026 Benjamin Stanley Frohman. Licensed under Apache-2.0. -->
 # Fermat quartic planes
 
 Easy arrow on a special host. Not the Hodge conjecture.

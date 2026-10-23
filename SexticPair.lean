@@ -1,7 +1,9 @@
 /-
-Copyright (c) 2026 Benjamin Stanley Frohman (@BenFrohman). Apache-2.0.
-Authors: Benjamin Stanley Frohman (@BenFrohman)
-
+Copyright (c) 2026 Benjamin Stanley Frohman. All rights reserved.
+Released under Apache 2.0 license as described in the file LICENSE.
+Authors: Benjamin Stanley Frohman
+-/
+/-
 Target: Fermat sextic host sum z_i^6 = 0 in P^5.
 Univariate pair identity only. Not EXTRA_CLASS_SEXTIC.
 Not CycleSection on an unnamed fourfold.

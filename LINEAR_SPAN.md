@@ -1,3 +1,4 @@
+<!-- Copyright (c) 2026 Benjamin Stanley Frohman. Licensed under Apache-2.0. -->
 # Linear planes on the Fermat quartic fourfold
 
 Author: Benjamin Stanley Frohman (@BenFrohman).
