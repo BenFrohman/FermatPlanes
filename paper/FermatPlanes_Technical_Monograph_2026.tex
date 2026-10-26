@@ -1,0 +1,105 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue}
+
+\title{\textbf{FermatPlanes: Easy-Arrow Linear Planes, Four-Factor Algebraic Identities, and Coefficient Span on Fermat Fourfolds in Lean 4}}
+\author{Benjamin Stanley Frohman\\
+\small ORCID: \href{https://orcid.org/0009-0006-7068-3718}{0009-0006-7068-3718} \quad|\quad
+GitHub: \href{https://github.com/BenFrohman/FermatPlanes}{\texttt{BenFrohman/FermatPlanes}}\\
+\small Dedicated 1-to-1 Zenodo DOI: \href{https://doi.org/10.5281/zenodo.23652978}{\texttt{10.5281/zenodo.23652978}}}
+\date{Earliest Commit Provenance: 2026-09-21 04:30:49 AM CDT (UTC-5)\\
+Siloed Archival Edition: October 25, 2026 (America/Chicago CDT)}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Standalone Lean 4 formalization (`FermatPlanes/EasyArrow.lean`, `FermatDatum.lean`, `FermatIdentities.lean`, `FourFactorIdentity.lean`, `LinearPlanes.lean`, `Membership.lean`, `SexticPair.lean`) of explicit algebraic 2-planes contained in Fermat fourfolds and the four-factor polynomial factorization identities governing their cycle classes.
+\end{abstract}
+
+\section{Scope, Scientific Honesty, and Non-Claim Boundary}
+Proves the 'easy arrow' (explicit linear planes define algebraic cycles and therefore rational Hodge classes) and associated polynomial identities in Lean 4. Explicitly does not claim the converse Hodge Conjecture.
+
+\begin{itemize}
+  \item \textbf{Repository:} \texttt{https://github.com/BenFrohman/FermatPlanes}
+  \item \textbf{Dedicated 1-to-1 Zenodo DOI:} \texttt{10.5281/zenodo.23652978}
+  \item \textbf{Earliest Git Commit SHA:} \texttt{0efda24706acd35a568d2e95141ac406b2a3de1d} (2026-09-21 04:30:49 AM CDT (UTC-5))
+  \item \textbf{License \& Copyright:} Copyright \textcopyright\ 2026 Benjamin Stanley Frohman. Licensed under the Apache License, Version 2.0.
+\end{itemize}
+
+\section{Technical Overview \& Repository Specification}
+**Author:** Benjamin Stanley Frohman (@BenFrohman)
+
+**Copyright:** (c) 2026 Benjamin Stanley Frohman.
+
+**License:** Apache-2.0. See `LICENSE` and `COPYRIGHT`.
+
+Easy-arrow planes on the Fermat quartic fourfold
+
+X : z₀\textasciicircum{}4 + ⋯ + z₅\textasciicircum{}4 = 0 ⊂ ℙ\textasciicircum{}5
+
+with ζ\textasciicircum{}4 = -1. Remainder identity
+
+z\textasciicircum{}4 + w\textasciicircum{}4 = (z − ζ w)(cubic) + (1+ζ\textasciicircum{}4) w\textasciicircum{}4
+
+vanishes on the locus ζ\textasciicircum{}4 = -1. This is **not** the Hodge conjecture
+
+and **not** a global constructor.
+
+- [HODGE](https://github.com/BenFrohman/HODGE) — fourfold Hodge sentence; CycleSection on named hosts; `general\_fourfold` open
+
+- [NoetherLefschetz](https://github.com/BenFrohman/NoetherLefschetz) — very general high-degree hosts; no extra classes
+
+- [CubicFourfold](https://github.com/BenFrohman/CubicFourfold) — cubic Hodge numbers; Zucker cited
+
+- [StandardConjectures](https://github.com/BenFrohman/StandardConjectures) — A/B/C/D skeleton
+
+- [TateConjecture](https://github.com/BenFrohman/TateConjecture) — Tate sentence only
+
+- [DerivedCategories](https://github.com/BenFrohman/DerivedCategories) — D\textasciicircum{}b notes
+
+- [HODGE-DISPROOF](https://github.com/BenFrohman/HODGE-DISPROOF) — disproof *type*, not a disproof
+
+Copies remain under `Hodge/Attempt/` in HODGE. They are not imported by `Hodge.lean`.
+
+\section{Cryptographic Provenance \& File Inventory}
+Every source artifact in \texttt{BenFrohman/FermatPlanes} is audited via \texttt{titan-audit}
+(\texttt{audit/TITAN\_AUDIT\_CERTIFICATE.json}) and sealed under a deterministic SHA-256 Merkle tree via
+\texttt{sealguard} (\texttt{PROVENANCE\_MERKLE\_ROOT.json}) signed with Ed25519 key fingerprint
+\texttt{b428fb72676f1c52}.
+
+\begin{center}
+\small
+\begin{tabular}{p{0.52\textwidth}rr}
+\toprule
+\textbf{Repository Path} & \textbf{Size} & \textbf{SHA-256 Prefix} \\
+\midrule
+\texttt{COEFFICIENTS\_142.md} & 1456 B & \texttt{a9ada0eb44ba4f2d...} \\
+\texttt{COPYRIGHT} & 347 B & \texttt{68c81d3167dcc3aa...} \\
+\texttt{EQUATIONS.md} & 1944 B & \texttt{99c9439fc55fb6dd...} \\
+\texttt{EasyArrow.lean} & 1000 B & \texttt{7457ca90e22f9552...} \\
+\texttt{FERMAT\_PLANES.md} & 939 B & \texttt{a8007abb1c35c583...} \\
+\texttt{FermatDatum.lean} & 886 B & \texttt{214a13ab3ec5904e...} \\
+\texttt{FermatIdentities.lean} & 2560 B & \texttt{1f91cff714d9ce14...} \\
+\texttt{FourFactorIdentity.lean} & 1101 B & \texttt{2f05b0184eea843b...} \\
+\texttt{LICENSE} & 11355 B & \texttt{9da72c2bee4f20ba...} \\
+\texttt{LINEAR\_SPAN.md} & 1465 B & \texttt{d23a94590fc22c48...} \\
+\texttt{LinearPlanes.lean} & 1376 B & \texttt{4b10067cd14f5f71...} \\
+\texttt{Membership.lean} & 1147 B & \texttt{2aff6f9c0cb48b21...} \\
+\texttt{NOTICE} & 324 B & \texttt{36fb4e0c499e58cc...} \\
+\texttt{README.md} & 1295 B & \texttt{d862427a8342b3d1...} \\
+\texttt{SexticPair.lean} & 1944 B & \texttt{1ec7bf15041b5b95...} \\
+\texttt{docs/CONCRETE\_S\_REJECT.md} & 959 B & \texttt{ec0e5caba3a7955d...} \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\vfill
+\noindent\rule{\textwidth}{0.4pt}\\
+\footnotesize
+\textbf{Attribution \& Licensing Notice:} Copyright \textcopyright\ 2026 Benjamin Stanley Frohman (ORCID: \texttt{0009-0006-7068-3718}).
+Licensed under the Apache License, Version 2.0.
+\end{document}

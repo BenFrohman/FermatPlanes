@@ -1,0 +1,59 @@
+{
+  "schema": "titan-audit-v1.0",
+  "repository": "BenFrohman/FermatPlanes",
+  "doi": "10.5281/zenodo.23652978",
+  "author": "Benjamin Stanley Frohman",
+  "orcid": "0009-0006-7068-3718",
+  "license": "Apache-2.0",
+  "timestamp_cdt": "2026-10-25T19:10:00-05:00",
+  "lean_module_count": 7,
+  "sorry_count": 0,
+  "modules": [
+    {
+      "file": "EasyArrow.lean",
+      "sha256": "7457ca90e22f9552af86b287a001ee47c0e31ed1b5db36078c0f893737764a19",
+      "declarations": 5,
+      "sorry_tokens": 0
+    },
+    {
+      "file": "FermatDatum.lean",
+      "sha256": "214a13ab3ec5904ea4d8a1575617e6322dcf3c45a16264d85baac278cf84783c",
+      "declarations": 4,
+      "sorry_tokens": 0
+    },
+    {
+      "file": "FermatIdentities.lean",
+      "sha256": "1f91cff714d9ce1425481ac633524300630d7551bfd575b99473764bcabea606",
+      "declarations": 5,
+      "sorry_tokens": 0
+    },
+    {
+      "file": "FourFactorIdentity.lean",
+      "sha256": "2f05b0184eea843bf8ee8cae3d556512359bcddd31aa67cd8e3146d743c11975",
+      "declarations": 2,
+      "sorry_tokens": 0
+    },
+    {
+      "file": "LinearPlanes.lean",
+      "sha256": "4b10067cd14f5f71d8f7ea89a96a400c42d5c215f5330c9932d40a0504f72d13",
+      "declarations": 8,
+      "sorry_tokens": 0
+    },
+    {
+      "file": "Membership.lean",
+      "sha256": "2aff6f9c0cb48b2104291e279a081600eaefbeb9496ef736d2458d7e24f2cb3b",
+      "declarations": 3,
+      "sorry_tokens": 0
+    },
+    {
+      "file": "SexticPair.lean",
+      "sha256": "1ec7bf15041b5b95f9ca6088ce3086a6061446580fd1af6c82b363353968a202",
+      "declarations": 3,
+      "sorry_tokens": 0
+    }
+  ],
+  "verdict": "PASS_ZERO_SORRY_HONEST_BOUNDARY",
+  "payload_sha256": "a6b0683abbb4cec545ef6974e3f4b954b2beba2abfba4e55c068e10ef8ef210e",
+  "ed25519_key_fingerprint": "b428fb72676f1c52",
+  "ed25519_signature": "61757ecf8fb7df38279ce500f977b9a02798522b781a27ae35d320e9670089c3e9bfdf2ab0a81a3a753cd29446d6f80deaba5f955c0af82a04dd4a857cebef0c"
+}

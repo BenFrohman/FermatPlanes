@@ -1,9 +1,13 @@
 FermatPlanes
-Copyright 2026 Benjamin Stanley Frohman
+Copyright (c) 2026 Benjamin Stanley Frohman
 
-Author: Benjamin Stanley Frohman <frohmanbenjamin@gmail.com>
-ORCID: https://orcid.org/0009-0006-7068-3718
-GitHub: https://github.com/BenFrohman
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-This repository is offered under the Apache License, Version 2.0.
-See LICENSE for the full Apache License, Version 2.0 text.
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Author: Benjamin Stanley Frohman (ORCID: https://orcid.org/0009-0006-7068-3718)
+Repository: https://github.com/BenFrohman/FermatPlanes
+Dedicated 1-to-1 Zenodo DOI: https://doi.org/10.5281/zenodo.23652978
+Earliest Commit Provenance: 0efda24706acd35a568d2e95141ac406b2a3de1d (2026-09-21 04:30:49 AM CDT (UTC-5))

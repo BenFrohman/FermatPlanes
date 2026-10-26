@@ -1,0 +1,28 @@
+{
+  "title": "FermatPlanes: Easy-Arrow Linear Planes, Four-Factor Algebraic Identities, and Coefficient Span on Fermat Fourfolds in Lean 4",
+  "upload_type": "software",
+  "description": "Standalone Lean 4 formalization (`FermatPlanes/EasyArrow.lean`, `FermatDatum.lean`, `FermatIdentities.lean`, `FourFactorIdentity.lean`, `LinearPlanes.lean`, `Membership.lean`, `SexticPair.lean`) of explicit algebraic 2-planes contained in Fermat fourfolds and the four-factor polynomial factorization identities governing their cycle classes. Proves the 'easy arrow' (explicit linear planes define algebraic cycles and therefore rational Hodge classes) and associated polynomial identities in Lean 4. Explicitly does not claim the converse Hodge Conjecture. Copyright (c) 2026 Benjamin Stanley Frohman. Licensed under the Apache License, Version 2.0.",
+  "creators": [
+    {
+      "name": "Frohman, Benjamin Stanley",
+      "orcid": "0009-0006-7068-3718"
+    }
+  ],
+  "license": "Apache-2.0",
+  "access_right": "open",
+  "keywords": [
+    "Lean 4",
+    "Fermat fourfold",
+    "Linear planes",
+    "Algebraic cycles",
+    "Four-factor identity",
+    "Hodge classes"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/BenFrohman/FermatPlanes",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

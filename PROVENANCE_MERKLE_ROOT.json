@@ -1,0 +1,125 @@
+{
+  "schema": "sealguard-merkle-provenance-v1.0",
+  "repository": "BenFrohman/FermatPlanes",
+  "doi": "10.5281/zenodo.23652978",
+  "author": "Benjamin Stanley Frohman",
+  "orcid": "0009-0006-7068-3718",
+  "license": "Apache-2.0",
+  "timestamp_cdt": "2026-10-25T19:10:00-05:00",
+  "merkle_root_sha256": "624fb43b93b4d4a1a40b36ac4226fc6c79475b179143c8b396df77bfa5484b76",
+  "ed25519_key_fingerprint": "b428fb72676f1c52",
+  "ed25519_signature": "0632245fb94cfafddacbf42117eb9d0944e489a3569c00bedec5bb4d0b996b20e3f33ceb400635412e08f9479f2875d04f67370537d194f4830c92536df23a0f",
+  "leaf_count": 22,
+  "leaves": [
+    {
+      "path": ".zenodo.json",
+      "sha256": "95b7088960b4d611818c9dff0c08bac9b93aa7e9b058cf50bb4bc570b5f128f8",
+      "bytes": 1327
+    },
+    {
+      "path": "AUTHORS.md",
+      "sha256": "1732529c9d516b14378c2ea60b7a29a9dd01385bb5f302efa163c42b3dceb130",
+      "bytes": 320
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "5edfe7b04eeda3fdf59d01e8be4c757d4e49ed6f66d4d06e85d3adc19b49b81c",
+      "bytes": 616
+    },
+    {
+      "path": "COEFFICIENTS_142.md",
+      "sha256": "a9ada0eb44ba4f2dd6cd6c4311b1b0a2fb3dab3cfa5b1bf23898efb14bd4896a",
+      "bytes": 1456
+    },
+    {
+      "path": "COPYRIGHT",
+      "sha256": "68c81d3167dcc3aac4d661cb248894ae6aca4da8a206717997923053d6b6f438",
+      "bytes": 347
+    },
+    {
+      "path": "EQUATIONS.md",
+      "sha256": "99c9439fc55fb6dd2ee9e0eb1370b9a02357a447fc068a26f3841f667c7836d6",
+      "bytes": 1944
+    },
+    {
+      "path": "EasyArrow.lean",
+      "sha256": "7457ca90e22f9552af86b287a001ee47c0e31ed1b5db36078c0f893737764a19",
+      "bytes": 1000
+    },
+    {
+      "path": "FERMAT_PLANES.md",
+      "sha256": "a8007abb1c35c58379b29f32ff5baa7d4aac0c6cef374f3d55603e5afa86efdf",
+      "bytes": 939
+    },
+    {
+      "path": "FermatDatum.lean",
+      "sha256": "214a13ab3ec5904ea4d8a1575617e6322dcf3c45a16264d85baac278cf84783c",
+      "bytes": 886
+    },
+    {
+      "path": "FermatIdentities.lean",
+      "sha256": "1f91cff714d9ce1425481ac633524300630d7551bfd575b99473764bcabea606",
+      "bytes": 2560
+    },
+    {
+      "path": "FourFactorIdentity.lean",
+      "sha256": "2f05b0184eea843bf8ee8cae3d556512359bcddd31aa67cd8e3146d743c11975",
+      "bytes": 1101
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "ec43eec7417d548fb78a8dc50830f1d854b91a89c2daf0d4e957601515c15e87",
+      "bytes": 10773
+    },
+    {
+      "path": "LINEAR_SPAN.md",
+      "sha256": "d23a94590fc22c485baeb3b545da03e232df6dfe554dab31033fcf86bc756f36",
+      "bytes": 1465
+    },
+    {
+      "path": "LinearPlanes.lean",
+      "sha256": "4b10067cd14f5f71d8f7ea89a96a400c42d5c215f5330c9932d40a0504f72d13",
+      "bytes": 1376
+    },
+    {
+      "path": "Membership.lean",
+      "sha256": "2aff6f9c0cb48b2104291e279a081600eaefbeb9496ef736d2458d7e24f2cb3b",
+      "bytes": 1147
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "166539ec505b74a1f7ebf4f9af5e92ee50d317540a06b55ceb7fa51d2cf63247",
+      "bytes": 586
+    },
+    {
+      "path": "README.md",
+      "sha256": "e07c0f16dbd0675aee49cd6aead1cf0f04c0aca9705245a8cbc1feb4d829af07",
+      "bytes": 2450
+    },
+    {
+      "path": "SexticPair.lean",
+      "sha256": "1ec7bf15041b5b95f9ca6088ce3086a6061446580fd1af6c82b363353968a202",
+      "bytes": 1944
+    },
+    {
+      "path": "audit/TITAN_AUDIT_CERTIFICATE.json",
+      "sha256": "8e7295fa7609721db0c3acddd7205a5d32ace2c9a0aa2a80b9ebcb7c78616ff1",
+      "bytes": 1937
+    },
+    {
+      "path": "docs/CONCRETE_S_REJECT.md",
+      "sha256": "ec0e5caba3a7955d2208a21743d68097feb44f768d99486529cbc827061e371c",
+      "bytes": 959
+    },
+    {
+      "path": "paper/FermatPlanes_Technical_Monograph_2026.pdf",
+      "sha256": "f23cd4660991a60b87c027f4750f61d93573d051cb5c4c3cae8f24905fa7e02a",
+      "bytes": 49051
+    },
+    {
+      "path": "paper/FermatPlanes_Technical_Monograph_2026.tex",
+      "sha256": "25fd56a8ffd00f998dd56ecb3bc68172b34f7591a601ca1068e10938f82098c5",
+      "bytes": 5381
+    }
+  ]
+}

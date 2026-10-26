@@ -1,0 +1,13 @@
+{
+  "schema": "sealguard-manifest-v1.0",
+  "repository": "BenFrohman/FermatPlanes",
+  "doi": "10.5281/zenodo.23652978",
+  "author": "Benjamin Stanley Frohman",
+  "orcid": "0009-0006-7068-3718",
+  "license": "Apache-2.0",
+  "public_surface_policy": "VERIFIED_PUBLIC_SURFACE_ONLY",
+  "classified_ip_redaction": "ACTIVE_ZERO_LEAKAGE",
+  "merkle_root_sha256": "624fb43b93b4d4a1a40b36ac4226fc6c79475b179143c8b396df77bfa5484b76",
+  "ed25519_key_fingerprint": "b428fb72676f1c52",
+  "ed25519_signature": "0632245fb94cfafddacbf42117eb9d0944e489a3569c00bedec5bb4d0b996b20e3f33ceb400635412e08f9479f2875d04f67370537d194f4830c92536df23a0f"
+}
