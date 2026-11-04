@@ -1,13 +1,15 @@
 cff-version: 1.2.0
 message: "If you use or reference this repository, please cite it using the metadata below."
-title: "FermatPlanes: Easy-Arrow Linear Planes, Four-Factor Algebraic Identities, and Coefficient Span on Fermat Fourfolds in Lean 4"
+title: "Factorization Identities and Plane-Ideal Membership for the Fermat Quartic Fourfold, Formalized in Lean 4"
 authors:
-  - family-names: "Frohman"
+  - family-names: Frohman
     given-names: "Benjamin Stanley"
+    email: frohmanbenjamin@gmail.com
     orcid: "https://orcid.org/0009-0006-7068-3718"
 doi: 10.5281/zenodo.23652978
 url: "https://github.com/BenFrohman/FermatPlanes"
 repository-code: "https://github.com/BenFrohman/FermatPlanes"
 license: Apache-2.0
 copyright: "Copyright (c) 2026 Benjamin Stanley Frohman"
-date-released: "2026-09-21"
+date-released: "2026-11-04"
+version: "1.1.0"

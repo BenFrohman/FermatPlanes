@@ -1,7 +1,7 @@
 {
-  "title": "FermatPlanes: Easy-Arrow Linear Planes, Four-Factor Algebraic Identities, and Coefficient Span on Fermat Fourfolds in Lean 4",
+  "title": "Factorization Identities and Plane-Ideal Membership for the Fermat Quartic Fourfold, Formalized in Lean 4",
   "upload_type": "software",
-  "description": "Standalone Lean 4 formalization (`FermatPlanes/EasyArrow.lean`, `FermatDatum.lean`, `FermatIdentities.lean`, `FourFactorIdentity.lean`, `LinearPlanes.lean`, `Membership.lean`, `SexticPair.lean`) of explicit algebraic 2-planes contained in Fermat fourfolds and the four-factor polynomial factorization identities governing their cycle classes. Proves the 'easy arrow' (explicit linear planes define algebraic cycles and therefore rational Hodge classes) and associated polynomial identities in Lean 4. Explicitly does not claim the converse Hodge Conjecture. Copyright (c) 2026 Benjamin Stanley Frohman. Licensed under the Apache License, Version 2.0.",
+  "description": "Lean 4 + Mathlib (v4.22.0) formalization, over any commutative ring, of the identities showing the Fermat quartic z0^4+...+z5^4 lies in the ideal (z0-zeta z1, z2-zeta z3, z4-zeta z5) when zeta^4=-1: division with remainder (1+zeta^4)w^4, four-factor identity, explicit decompositions, ideal membership (fermat_mem_Z1), the sextic analogue, and the count 15*4^3=960. Spanning of Hodge classes is not formalized. 17 theorems, no sorry, no native_decide, standard axioms only. The attached paper states exactly these results.",
   "creators": [
     {
       "name": "Frohman, Benjamin Stanley",
@@ -24,5 +24,7 @@
       "relation": "isSupplementTo",
       "scheme": "url"
     }
-  ]
+  ],
+  "version": "1.1.0",
+  "publication_date": "2026-11-04"
 }
