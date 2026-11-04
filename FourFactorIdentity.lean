@@ -4,6 +4,7 @@ Released under Apache 2.0 license as described in the file LICENSE.
 Authors: Benjamin Stanley Frohman
 -/
 import Mathlib.Tactic.Ring
+import Mathlib.Tactic.LinearCombination
 
 /-!
 # Four-factor writing of x^4 + y^4
@@ -26,13 +27,7 @@ theorem four_factor_with_remainder (x y ζ : R) :
 theorem four_factor_vanishing (x y ζ : R) (hζ : ζ ^ 4 = -1) :
     (x + ζ * y) * (x - ζ * y) * (x + ζ ^ 3 * y) * (x - ζ ^ 3 * y) =
       x ^ 4 + y ^ 4 := by
-  have h := four_factor_with_remainder x y ζ
-  simp [hζ] at h
-  linarith  -- wait, use ring after rw
-  -- rewrite path:
-  -- actually after hζ, remainder coefficient 0.
-  convert h using 1
-  rw [hζ]
+  rw [four_factor_with_remainder, hζ]
   ring
 
 end FermatPlanes

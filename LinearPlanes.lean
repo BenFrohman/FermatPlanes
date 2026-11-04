@@ -28,7 +28,7 @@ structure Pairing where
   right2 : Coord
 
 /-- Index `0,1,2,3` for the four roots of `μ^4 = -1`. -/
-def RootIdx := Fin 4
+abbrev RootIdx := Fin 4
 
 structure LinearPlane where
   pairing : Pairing

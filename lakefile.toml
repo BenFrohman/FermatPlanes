@@ -1,0 +1,11 @@
+name = "FermatPlanes"
+defaultTargets = ["FermatPlanes"]
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "v4.22.0"
+
+[[lean_lib]]
+name = "FermatPlanes"
+roots = ["FermatDatum", "FermatIdentities", "FourFactorIdentity", "LinearPlanes", "Membership", "SexticPair", "EasyArrow"]
