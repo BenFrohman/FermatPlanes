@@ -43,3 +43,8 @@ Copies remain under `Hodge/Attempt/` in HODGE. They are not imported by `Hodge.l
 - **SealGuard SHA-256 Merkle Root:** `624fb43b93b4d4a1a40b36ac4226fc6c79475b179143c8b396df77bfa5484b76` (`PROVENANCE_MERKLE_ROOT.json`)
 - **Titan Audit Certificate:** `audit/TITAN_AUDIT_CERTIFICATE.json` (Ed25519 key `b428fb72676f1c52`)
 - **Scope & Scientific Boundary:** Proves the 'easy arrow' (explicit linear planes define algebraic cycles and therefore rational Hodge classes) and associated polynomial identities in Lean 4. Explicitly does not claim the converse Hodge Conjecture.
+
+## Zenodo archive
+
+- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23652977.svg)](https://doi.org/10.5281/zenodo.23652977) FermatPlanes: Easy-Arrow Linear Planes, Four-Factor Algebraic Identities, and Coefficient Span on Fermat Fourfolds in Lean 4 — all versions: [10.5281/zenodo.23652977](https://doi.org/10.5281/zenodo.23652977); latest version: [10.5281/zenodo.23652978](https://doi.org/10.5281/zenodo.23652978)
+- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23867549.svg)](https://doi.org/10.5281/zenodo.23867549) FermatPlanes: Easy-Arrow Linear Planes, Four-Factor Algebraic Identities, and Coefficient Span on Fermat Fourfolds in Lean 4 — all versions: [10.5281/zenodo.23867549](https://doi.org/10.5281/zenodo.23867549); latest version: [10.5281/zenodo.23867550](https://doi.org/10.5281/zenodo.23867550)
