@@ -1,0 +1,31 @@
+'FermatPlanes.Z1_is_standard' depends on axioms: [propext]
+'FermatPlanes.Z2_is_standard' depends on axioms: [propext]
+'FermatPlanes.easyCl_eq_construct' depends on axioms: [propext]
+'FermatPlanes.easyCl_is_section' depends on axioms: [propext]
+'FermatPlanes.construct_id' depends on axioms: [propext]
+'FermatPlanes.pair_vanishing' depends on axioms: [propext, Quot.sound]
+'FermatPlanes.pair_vanishing_neg' depends on axioms: [propext, Quot.sound]
+'FermatPlanes.pair_with_remainder' depends on axioms: [propext, Quot.sound]
+'FermatPlanes.quartic_in_Z1_factors' depends on axioms: [propext, Quot.sound]
+'FermatPlanes.quartic_in_Z2_factors' depends on axioms: [propext, Quot.sound]
+'FermatPlanes.four_factor_vanishing' depends on axioms: [propext, Quot.sound]
+'FermatPlanes.four_factor_with_remainder' depends on axioms: [propext, Quot.sound]
+'FermatPlanes.Coord.ofNat_toCtorIdx' does not depend on any axioms
+'FermatPlanes.Coord.z0.sizeOf_spec' does not depend on any axioms
+'FermatPlanes.Coord.z1.sizeOf_spec' does not depend on any axioms
+'FermatPlanes.Coord.z2.sizeOf_spec' does not depend on any axioms
+'FermatPlanes.Coord.z3.sizeOf_spec' does not depend on any axioms
+'FermatPlanes.Coord.z4.sizeOf_spec' does not depend on any axioms
+'FermatPlanes.Coord.z5.sizeOf_spec' does not depend on any axioms
+'FermatPlanes.LinearPlane.mk.inj' does not depend on any axioms
+'FermatPlanes.LinearPlane.mk.injEq' depends on axioms: [propext]
+'FermatPlanes.LinearPlane.mk.sizeOf_spec' does not depend on any axioms
+'FermatPlanes.Pairing.mk.inj' does not depend on any axioms
+'FermatPlanes.Pairing.mk.injEq' depends on axioms: [propext]
+'FermatPlanes.Pairing.mk.sizeOf_spec' does not depend on any axioms
+'FermatPlanes.pairing_count_formula' does not depend on any axioms
+'FermatPlanes.fermat_mem_Z1' depends on axioms: [propext, Quot.sound]
+'FermatPlanes.cofactor6.eq_1' does not depend on any axioms
+'FermatPlanes.pair6_vanishing' depends on axioms: [propext, Quot.sound]
+'FermatPlanes.pair6_with_remainder' depends on axioms: [propext, Quot.sound]
+AUDIT PASS: 30 theorems in 7 modules depend only on propext, Classical.choice, Quot.sound (or on no axioms)
