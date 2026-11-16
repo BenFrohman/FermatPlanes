@@ -6,6 +6,10 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23652978.svg)](https://doi.org/10.5281/zenodo.23652978) [![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
+## Kernel certificate
+
+[certificates/CERTIFICATE.md](certificates/CERTIFICATE.md): commit `eb8be76`, `leanprover/lean4:v4.22.0`. `lake build` passes; the sorry/axiom scan finds 0 hits; **30 theorems depend only on `propext`, `Classical.choice`, `Quot.sound`**; 7 of 7 modules replayed through the kernel, 0 failures ([CI run](https://github.com/BenFrohman/FermatPlanes/actions/runs/43938046178)).
+
 **Author:** Benjamin Stanley Frohman (@BenFrohman)
 **Copyright:** (c) 2026 Benjamin Stanley Frohman.
 **License:** Apache-2.0. See `LICENSE` and `COPYRIGHT`.

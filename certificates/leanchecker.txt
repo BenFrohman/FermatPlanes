@@ -1,0 +1,13 @@
+checker: lean4checker tag v4.22.0 (0531c5e62c6bbc21af6c8b4adc2a16d201bf8b65), Main.lean prefix match -> exact match
+  patch: 84c84
+  patch: <         if target.isPrefixOf m then
+  patch: ---
+  patch: >         if target == m then
+EasyArrow: OK (1 module replayed)
+FermatDatum: OK (1 module replayed)
+FermatIdentities: OK (1 module replayed)
+FourFactorIdentity: OK (1 module replayed)
+LinearPlanes: OK (1 module replayed)
+Membership: OK (1 module replayed)
+SexticPair: OK (1 module replayed)
+RESULT: 7 of 7 modules replayed through the kernel, 0 failures
