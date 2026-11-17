@@ -1,6 +1,6 @@
-commit: eb8be76a39b58dd147b2c1d5d5143d395a713a6c
+commit: abf9acb25efe8bd1133fced3afdfe559becf6bec
 lean-toolchain: leanprover/lean4:v4.22.0
 lean --version: Lean (version 4.22.0, x86_64-unknown-linux-gnu, commit ba2cbbf09d4978f416e0ebd1fceeebc2c4138c05, Release)
 lake --version: Lake version 5.0.0-src+ba2cbbf (Lean version 4.22.0)
-date (UTC): 2026-11-16T19:22:24Z
-run: https://github.com/BenFrohman/FermatPlanes/actions/runs/43938046178
+date (UTC): 2026-11-16T20:53:51Z
+run: https://github.com/BenFrohman/FermatPlanes/actions/runs/43954433615

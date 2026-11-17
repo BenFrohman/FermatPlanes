@@ -1,0 +1,16 @@
+# Kernel certificate manifest
+# source commit: abf9acb25efe8bd1133fced3afdfe559becf6bec
+# lean-toolchain: leanprover/lean4:v4.22.0
+# Mathlib: 79e94a093aff4a60fb1b1f92d9681e407124c2ca (lake-manifest.json; inputRev v4.22.0)
+# CI run: https://github.com/BenFrohman/FermatPlanes/actions/runs/43954433615
+# rebuild: git clone https://github.com/BenFrohman/FermatPlanes.git && cd FermatPlanes && git checkout abf9acb25efe8bd1133fced3afdfe559becf6bec && lake exe cache get && lake build && python3 certificates/tools/sorry_scan.py && python3 certificates/tools/gen_audit.py /tmp/KernelCertificateAudit.lean /tmp/modules.txt && lake env lean /tmp/KernelCertificateAudit.lean > /tmp/axioms.raw.txt && python3 certificates/tools/check_audit.py /tmp/axioms.raw.txt | tail -n 1
+# verify: cd certificates && sha256sum -c MANIFEST.sha256
+ef434e033ff42dbe45cf9b27427a3dbfc351aa3ba5d5516e56957c1526bf18fd  CERTIFICATE.md
+30cf5f181dfe9e0e133f168208c4f053fc95013e43588e395535134f7d4762bb  KernelCertificateAudit.lean.txt
+c57273f053aab6e463ced3eea45475dd19f67a019e138bcc92fde564f64dd8f6  axioms.raw.txt
+c2573921ab54ec0c85673f547334b9c74e2a4257370cc3411bffdf8349386688  axioms.txt
+97857ec187f66eb41f31a725493e69f1367f83145179d11c5e2070104dbce302  build.log
+6b2cb819146d0a044b023d29b47754c2413327429ff65eb5765b4d8f084d3781  environment.txt
+24f7846754ec2b5b72818e8bf72f84710a61baf170f0661aca02f435e4b25b9a  leanchecker.txt
+03c0ee45c60a11c8df98012a720e485b4c5199ac86aceb223db0d1805dddddb4  modules.txt
+08f9540ff4d9b7708368c263d73428208b051cb52e379aced0084c56f73ae289  sorry-scan.txt

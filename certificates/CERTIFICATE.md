@@ -5,13 +5,13 @@ This file records a reproducible machine check of the Lean 4 development in this
 | Item | Value |
 |---|---|
 | Repository | https://github.com/BenFrohman/FermatPlanes |
-| Certified commit | `eb8be76a39b58dd147b2c1d5d5143d395a713a6c` (branch `chore/kernel-certificate`) |
-| Lean sources | identical to `main` at `6fa72236eb02cd7700907b8abe96666211381392`: no `.lean`, lakefile, manifest or toolchain file differs; the certified commit only adds CI and the scripts in `certificates/tools/` |
+| Certified commit | `abf9acb25efe8bd1133fced3afdfe559becf6bec` (branch `main`) |
+| Lean sources | the certified commit is the `main` head itself; the certificate files were committed afterwards in a commit that changes no `.lean`, lakefile, manifest or toolchain file |
 | lean-toolchain | `leanprover/lean4:v4.22.0` |
 | Lean | Lean (version 4.22.0, x86_64-unknown-linux-gnu, commit ba2cbbf09d4978f416e0ebd1fceeebc2c4138c05, Release) |
 | Mathlib | `79e94a093aff4a60fb1b1f92d9681e407124c2ca` (lake-manifest.json; inputRev `v4.22.0`) |
-| Date (UTC) | 2026-11-16T19:22:24Z |
-| CI run | https://github.com/BenFrohman/FermatPlanes/actions/runs/43938046178 |
+| Date (UTC) | 2026-11-16T20:53:51Z |
+| CI run | https://github.com/BenFrohman/FermatPlanes/actions/runs/43954433615 |
 | `lake build` | `Build completed successfully.` ([build.log](build.log)) |
 | sorry / admit / native_decide / axiom scan | `RESULT: 0 hits` ([sorry-scan.txt](sorry-scan.txt)) |
 | `#print axioms` | `AUDIT PASS: 30 theorems in 7 modules depend only on propext, Classical.choice, Quot.sound (or on no axioms)` ([axioms.txt](axioms.txt)) |
@@ -66,5 +66,5 @@ Full `#print axioms` output (verbatim from `axioms.txt`):
 ## Rebuild
 
 ```
-git clone https://github.com/BenFrohman/FermatPlanes.git && cd FermatPlanes && git checkout eb8be76a39b58dd147b2c1d5d5143d395a713a6c && lake exe cache get && lake build && python3 certificates/tools/sorry_scan.py && python3 certificates/tools/gen_audit.py /tmp/KernelCertificateAudit.lean /tmp/modules.txt && lake env lean /tmp/KernelCertificateAudit.lean > /tmp/axioms.raw.txt && python3 certificates/tools/check_audit.py /tmp/axioms.raw.txt | tail -n 1
+git clone https://github.com/BenFrohman/FermatPlanes.git && cd FermatPlanes && git checkout abf9acb25efe8bd1133fced3afdfe559becf6bec && lake exe cache get && lake build && python3 certificates/tools/sorry_scan.py && python3 certificates/tools/gen_audit.py /tmp/KernelCertificateAudit.lean /tmp/modules.txt && lake env lean /tmp/KernelCertificateAudit.lean > /tmp/axioms.raw.txt && python3 certificates/tools/check_audit.py /tmp/axioms.raw.txt | tail -n 1
 ```
