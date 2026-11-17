@@ -52,3 +52,7 @@ Copies remain under `Hodge/Attempt/` in HODGE. They are not imported by `Hodge.l
 
 - [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23652977.svg)](https://doi.org/10.5281/zenodo.23652977) FermatPlanes: Easy-Arrow Linear Planes, Four-Factor Algebraic Identities, and Coefficient Span on Fermat Fourfolds in Lean 4 — all versions: [10.5281/zenodo.23652977](https://doi.org/10.5281/zenodo.23652977); latest version: [10.5281/zenodo.23652978](https://doi.org/10.5281/zenodo.23652978)
 - [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23867549.svg)](https://doi.org/10.5281/zenodo.23867549) FermatPlanes: Easy-Arrow Linear Planes, Four-Factor Algebraic Identities, and Coefficient Span on Fermat Fourfolds in Lean 4 — all versions: [10.5281/zenodo.23867549](https://doi.org/10.5281/zenodo.23867549); latest version: [10.5281/zenodo.23867550](https://doi.org/10.5281/zenodo.23867550)
+
+## License and attribution
+
+This work is licensed under the Apache License 2.0 (see [LICENSE](LICENSE) and [NOTICE](NOTICE)). Any use, reproduction, or redistribution, in whole or in part, must retain the NOTICE file and credit Benjamin Stanley Frohman as the author. If you use this work in a publication, please cite it (see [CITATION.cff](CITATION.cff) / the Zenodo DOI).
